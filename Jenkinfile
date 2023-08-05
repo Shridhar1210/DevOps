@@ -1,0 +1,14 @@
+pipeline {
+    agent any
+    stages{
+        stage { ('stage1-Prebuild)
+        steps ()
+            }
+        stage { ('stage2-Depoyment')
+            steps()
+        }
+        stage { ('stage3-Post Depoyment')
+            steps()
+        }
+    }
+}
